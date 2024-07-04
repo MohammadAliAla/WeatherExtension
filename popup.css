@@ -1,0 +1,47 @@
+/* popup.css */
+#city-input
+{
+  height: 40px;
+  font-size:15pt;
+}
+button.boton{
+  border-radius: 14px; /* Adjust the value to change the amount of curve */
+  padding: 16px 14px; /* Add padding for button content */
+  background-color: #007bff; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  /* Additional styles such as font-size, font-weight, etc. can be added */
+}
+
+/* Hover effect */
+.rounded-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+.boton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+body  {
+    background-image: url("Weather.jpg");
+  }
+/* Style the table */
+table {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #96D4D4;
+    border: 1px solid #ffffff;
+    padding: 8px;
+  }
+  
+  /* Style table rows */
+  td {
+    background-color: #96D4D4;
+    border: 1px solid #ffffff;
+    padding: 8px;
+  }
+  
